@@ -39,7 +39,7 @@ parsl.load(config)
 parsl.set_stream_logger()
 parsl.set_file_logger('parsl_nesh_sleep_jobs_scaling.log', level=logging.DEBUG)
 
-logger = logging.get_logger("main script")
+logger = logging.getLogger("main script")
 
 
 @python_app
