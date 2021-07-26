@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH --job-name=parsl.slurm.1627317929.6188636
+#SBATCH --output=/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh/runinfo/000/submit_scripts/parsl.slurm.1627317929.6188636.submit.stdout
+#SBATCH --error=/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh/runinfo/000/submit_scripts/parsl.slurm.1627317929.6188636.submit.stderr
+#SBATCH --nodes=1
+#SBATCH --time=10
+#SBATCH --ntasks-per-node=1
+
+#SBATCH --exclusive
+#SBATCH --partition=cluster
+
+
+
+
+
+export JOBNAME="parsl.slurm.1627317929.6188636"
+
+set -e
+export CORES=$SLURM_CPUS_ON_NODE
+export NODES=$SLURM_JOB_NUM_NODES
+
+[[ "1" == "1" ]] && echo "Found cores : $CORES"
+[[ "1" == "1" ]] && echo "Found nodes : $NODES"
+WORKERCOUNT=1
+
+cat << SLURM_EOF > cmd_$SLURM_JOB_NAME.sh
+process_worker_pool.py   -a 172.18.4.13 -p 0 -c 1 -m None --poll 10 --task_port=54829 --result_port=54396 --logdir=/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh/runinfo/000/NESH_01 --block_id=2 --hb_period=30  --hb_threshold=120 --cpu-affinity none 
+SLURM_EOF
+chmod a+x cmd_$SLURM_JOB_NAME.sh
+
+srun --ntasks 1 -l  bash cmd_$SLURM_JOB_NAME.sh
+
+[[ "1" == "1" ]] && echo "Done"
+

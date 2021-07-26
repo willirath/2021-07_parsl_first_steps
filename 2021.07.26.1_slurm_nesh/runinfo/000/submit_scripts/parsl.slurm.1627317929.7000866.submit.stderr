@@ -1,0 +1,5 @@
+0: slurmstepd: error: TMPDIR [/scratch/SlurmTMP/smomw122.2113797] is not writeable
+0: slurmstepd: error: Setting TMPDIR to /tmp
+slurmstepd: error: *** JOB 2113797 ON neshcl414 CANCELLED AT 2021-07-26T18:46:11 ***
+0: slurmstepd: error: *** STEP 2113797.0 ON neshcl414 CANCELLED AT 2021-07-26T18:46:11 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

@@ -1,0 +1,5 @@
+2021-07-26 18:45:40.817 worker_log:503 Rank:23 [INFO]  Worker 23 started
+2021-07-26 18:45:40.852 worker_log:533 Rank:23 [INFO]  Received task 569
+2021-07-26 18:45:48.531 worker_log:551 Rank:23 [INFO]  Completed task 569
+2021-07-26 18:45:51.080 worker_log:533 Rank:23 [INFO]  Received task 889
+2021-07-26 18:46:01.961 worker_log:551 Rank:23 [INFO]  Completed task 889

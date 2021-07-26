@@ -1,0 +1,56 @@
+2021-07-26 18:45:13.549 interchange:166 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55015,55367,55154
+2021-07-26 18:45:13.550 interchange:180 [INFO]  Connected to client
+2021-07-26 18:45:13.550 interchange:210 [INFO]  Bound to ports 54829,54396 for incoming worker connections
+2021-07-26 18:45:13.550 interchange:225 [INFO]  Platform info: {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'os': 'Linux', 'hostname': 'nesh-fe3', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh'}
+2021-07-26 18:45:13.551 interchange:373 [INFO]  Incoming ports bound
+2021-07-26 18:45:13.551 interchange:261 [INFO]  [TASK_PULL_THREAD] Starting
+2021-07-26 18:45:26.219 interchange:437 [INFO]  [MAIN] Adding manager: b'2949d4f2bbb2' to ready queue
+2021-07-26 18:45:26.220 interchange:439 [INFO]  [MAIN] Registration info for manager b'2949d4f2bbb2': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '2949d4f2bbb2', 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl284', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201417744384, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 26)}
+2021-07-26 18:45:26.220 interchange:457 [INFO]  [MAIN] Manager b'2949d4f2bbb2' has compatible Parsl version 1.1.0
+2021-07-26 18:45:26.220 interchange:458 [INFO]  [MAIN] Manager b'2949d4f2bbb2' has compatible Python version 3.9
+2021-07-26 18:45:32.730 interchange:437 [INFO]  [MAIN] Adding manager: b'22822e2a5436' to ready queue
+2021-07-26 18:45:32.730 interchange:439 [INFO]  [MAIN] Registration info for manager b'22822e2a5436': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '22822e2a5436', 'block_id': '7', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl474', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 32)}
+2021-07-26 18:45:32.730 interchange:457 [INFO]  [MAIN] Manager b'22822e2a5436' has compatible Parsl version 1.1.0
+2021-07-26 18:45:32.730 interchange:458 [INFO]  [MAIN] Manager b'22822e2a5436' has compatible Python version 3.9
+2021-07-26 18:45:32.826 interchange:437 [INFO]  [MAIN] Adding manager: b'acdd34819390' to ready queue
+2021-07-26 18:45:32.826 interchange:439 [INFO]  [MAIN] Registration info for manager b'acdd34819390': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': 'acdd34819390', 'block_id': '1', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl332', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201417744384, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 32)}
+2021-07-26 18:45:32.826 interchange:457 [INFO]  [MAIN] Manager b'acdd34819390' has compatible Parsl version 1.1.0
+2021-07-26 18:45:32.826 interchange:458 [INFO]  [MAIN] Manager b'acdd34819390' has compatible Python version 3.9
+2021-07-26 18:45:32.866 interchange:437 [INFO]  [MAIN] Adding manager: b'1e5b2fc83055' to ready queue
+2021-07-26 18:45:32.866 interchange:439 [INFO]  [MAIN] Registration info for manager b'1e5b2fc83055': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '1e5b2fc83055', 'block_id': '8', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl491', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 32)}
+2021-07-26 18:45:32.866 interchange:457 [INFO]  [MAIN] Manager b'1e5b2fc83055' has compatible Parsl version 1.1.0
+2021-07-26 18:45:32.866 interchange:458 [INFO]  [MAIN] Manager b'1e5b2fc83055' has compatible Python version 3.9
+2021-07-26 18:45:33.198 interchange:437 [INFO]  [MAIN] Adding manager: b'dcf82bb1583d' to ready queue
+2021-07-26 18:45:33.201 interchange:439 [INFO]  [MAIN] Registration info for manager b'dcf82bb1583d': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': 'dcf82bb1583d', 'block_id': '9', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl496', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 33)}
+2021-07-26 18:45:33.201 interchange:457 [INFO]  [MAIN] Manager b'dcf82bb1583d' has compatible Parsl version 1.1.0
+2021-07-26 18:45:33.201 interchange:458 [INFO]  [MAIN] Manager b'dcf82bb1583d' has compatible Python version 3.9
+2021-07-26 18:45:33.235 interchange:437 [INFO]  [MAIN] Adding manager: b'cbe2a4267b84' to ready queue
+2021-07-26 18:45:33.235 interchange:439 [INFO]  [MAIN] Registration info for manager b'cbe2a4267b84': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': 'cbe2a4267b84', 'block_id': '3', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl344', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201417744384, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 33)}
+2021-07-26 18:45:33.235 interchange:457 [INFO]  [MAIN] Manager b'cbe2a4267b84' has compatible Parsl version 1.1.0
+2021-07-26 18:45:33.235 interchange:458 [INFO]  [MAIN] Manager b'cbe2a4267b84' has compatible Python version 3.9
+2021-07-26 18:45:33.387 interchange:437 [INFO]  [MAIN] Adding manager: b'37cb81034c78' to ready queue
+2021-07-26 18:45:33.387 interchange:439 [INFO]  [MAIN] Registration info for manager b'37cb81034c78': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '37cb81034c78', 'block_id': '6', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl463', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 33)}
+2021-07-26 18:45:33.387 interchange:457 [INFO]  [MAIN] Manager b'37cb81034c78' has compatible Parsl version 1.1.0
+2021-07-26 18:45:33.387 interchange:458 [INFO]  [MAIN] Manager b'37cb81034c78' has compatible Python version 3.9
+2021-07-26 18:45:40.823 interchange:437 [INFO]  [MAIN] Adding manager: b'7ab7ade992e7' to ready queue
+2021-07-26 18:45:40.823 interchange:439 [INFO]  [MAIN] Registration info for manager b'7ab7ade992e7': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '7ab7ade992e7', 'block_id': '4', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl414', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 40)}
+2021-07-26 18:45:40.823 interchange:457 [INFO]  [MAIN] Manager b'7ab7ade992e7' has compatible Parsl version 1.1.0
+2021-07-26 18:45:40.823 interchange:458 [INFO]  [MAIN] Manager b'7ab7ade992e7' has compatible Python version 3.9
+2021-07-26 18:45:40.841 interchange:437 [INFO]  [MAIN] Adding manager: b'272870c59a64' to ready queue
+2021-07-26 18:45:40.841 interchange:439 [INFO]  [MAIN] Registration info for manager b'272870c59a64': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '272870c59a64', 'block_id': '5', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl434', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201454026752, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 40)}
+2021-07-26 18:45:40.841 interchange:457 [INFO]  [MAIN] Manager b'272870c59a64' has compatible Parsl version 1.1.0
+2021-07-26 18:45:40.841 interchange:458 [INFO]  [MAIN] Manager b'272870c59a64' has compatible Python version 3.9
+2021-07-26 18:45:40.848 interchange:437 [INFO]  [MAIN] Adding manager: b'9b96ee3cdf82' to ready queue
+2021-07-26 18:45:40.848 interchange:439 [INFO]  [MAIN] Registration info for manager b'9b96ee3cdf82': {'parsl_v': '1.1.0', 'python_v': '3.9.6', 'worker_count': 32, 'uid': '9b96ee3cdf82', 'block_id': '2', 'prefetch_capacity': 0, 'max_capacity': 32, 'os': 'Linux', 'hostname': 'neshcl342', 'dir': '/gxfs_work1/fs1/work-geomar3/smomw122/2021-07_parsl_first_steps/2021.07.26.1_slurm_nesh', 'cpu_count': 32, 'total_memory': 201417744384, 'reg_time': datetime.datetime(2021, 7, 26, 18, 45, 40)}
+2021-07-26 18:45:40.848 interchange:457 [INFO]  [MAIN] Manager b'9b96ee3cdf82' has compatible Parsl version 1.1.0
+2021-07-26 18:45:40.848 interchange:458 [INFO]  [MAIN] Manager b'9b96ee3cdf82' has compatible Python version 3.9
+2021-07-26 18:46:10.704 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'1e5b2fc83055'
+2021-07-26 18:46:10.704 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'acdd34819390'
+2021-07-26 18:46:10.705 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'22822e2a5436'
+2021-07-26 18:46:10.705 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'9b96ee3cdf82'
+2021-07-26 18:46:10.706 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'272870c59a64'
+2021-07-26 18:46:10.706 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'7ab7ade992e7'
+2021-07-26 18:46:10.707 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'2949d4f2bbb2'
+2021-07-26 18:46:10.707 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'37cb81034c78'
+2021-07-26 18:46:10.708 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'cbe2a4267b84'
+2021-07-26 18:46:10.708 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'dcf82bb1583d'
