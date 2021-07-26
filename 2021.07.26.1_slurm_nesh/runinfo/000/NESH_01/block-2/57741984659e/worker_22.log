@@ -1,9 +1,0 @@
-2021-07-26 18:36:21.077 worker_log:503 Rank:22 [INFO]  Worker 22 started
-2021-07-26 18:36:21.120 worker_log:533 Rank:22 [INFO]  Received task 152
-2021-07-26 18:36:24.624 worker_log:551 Rank:22 [INFO]  Completed task 152
-2021-07-26 18:36:26.221 worker_log:533 Rank:22 [INFO]  Received task 312
-2021-07-26 18:36:31.326 worker_log:551 Rank:22 [INFO]  Completed task 312
-2021-07-26 18:36:31.349 worker_log:533 Rank:22 [INFO]  Received task 632
-2021-07-26 18:36:39.658 worker_log:551 Rank:22 [INFO]  Completed task 632
-2021-07-26 18:36:41.666 worker_log:533 Rank:22 [INFO]  Received task 952
-2021-07-26 18:36:53.178 worker_log:551 Rank:22 [INFO]  Completed task 952

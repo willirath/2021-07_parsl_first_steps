@@ -39,6 +39,8 @@ parsl.load(config)
 parsl.set_stream_logger()
 parsl.set_file_logger('parsl_nesh_sleep_jobs_scaling.log', level=logging.DEBUG)
 
+logger = logging.get_logger("main script")
+
 
 @python_app
 def sleep_some_time(sleep_for=2):
@@ -53,5 +55,5 @@ print(single_run.result())
 
 many_runs = list(map(lambda n: sleep_some_time(2 + n / 100), range(1024)))
 gathered_results = list(map(lambda f: f.result(), many_runs))
-print(gathered_results)
+logger.debug(gathered_results)
 

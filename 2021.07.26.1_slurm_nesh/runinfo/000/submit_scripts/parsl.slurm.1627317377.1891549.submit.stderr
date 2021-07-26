@@ -1,3 +1,0 @@
-slurmstepd: error: *** JOB 2113764 ON neshcl344 CANCELLED AT 2021-07-26T18:36:59 ***
-0: slurmstepd: error: *** STEP 2113764.0 ON neshcl344 CANCELLED AT 2021-07-26T18:36:59 ***
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
