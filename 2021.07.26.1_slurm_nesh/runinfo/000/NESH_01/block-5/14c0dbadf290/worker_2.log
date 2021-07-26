@@ -1,0 +1,5 @@
+2021-07-26 18:36:28.694 worker_log:503 Rank:2 [INFO]  Worker 2 started
+2021-07-26 18:36:28.763 worker_log:533 Rank:2 [INFO]  Received task 388
+2021-07-26 18:36:34.629 worker_log:551 Rank:2 [INFO]  Completed task 388
+2021-07-26 18:36:38.996 worker_log:533 Rank:2 [INFO]  Received task 708
+2021-07-26 18:36:48.065 worker_log:551 Rank:2 [INFO]  Completed task 708
